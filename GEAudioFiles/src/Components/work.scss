@@ -1,0 +1,53 @@
+
+img{
+    width: 100%;
+    height: 100%
+}
+.imageholder{
+    width:fit-content;
+    height: 50vh;
+}
+.work{
+    background-color: #f8e6cf;
+
+}
+.popup{
+    background-color: rgb(233, 233, 233);
+    color: black;
+}
+.items{
+cursor:pointer;
+color: #9F2B2B;
+float:left;
+
+}
+.items:hover{
+    cursor:pointer;
+    color: #9f2b2b;
+    text-decoration: underline;
+}
+.show-more-link {
+    color: #9F2B2B; /* Maroon text color */
+    text-decoration: underline; /* Underlined text */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+    font-family:'Times New Roman', Times, serif;
+
+  }
+  
+  .show-more-link:hover, .show-more-link:focus {
+    color: black; /* Black text color on hover/focus */
+    text-decoration: underline; /* Ensures underline remains on hover */
+  }
+
+  .suggestions {
+    position: absolute;
+    z-index: 1; /* Ensure the suggestions appear above other elements */
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px; /* Set a maximum height for scrollability */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    width: 350px; /* Adjust width as needed */
+    margin-top: 8px; /* Adjust top margin as needed */
+  }
+
+  

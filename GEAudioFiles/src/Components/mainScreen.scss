@@ -1,0 +1,28 @@
+
+$main_color :#FFFFFF;
+
+.main{
+    height:auto;
+    width:100%;
+    background-color: $main_color;
+}
+.heading{
+
+    background-color: #FFFFFF;
+    text-align: center;
+
+}
+.search{
+    padding-left: 2vw;
+}
+h1{
+
+    color:#000000;
+    font-family:Crimson Text
+
+}
+
+.suggestions li:hover {
+    text-decoration: underline;
+}
+
